@@ -1,0 +1,21 @@
+.zg1 {
+    font-size: 48px;
+    margin-top: 120px;
+    margin-bottom: 69px;
+}
+
+.name__tour {
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 83px;
+}
+
+.name__tour::before {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 50px;
+    height: 5px;
+    background-color: var(--lightgreen);
+}

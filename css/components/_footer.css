@@ -1,0 +1,72 @@
+.footer{
+    background-color: var(--darkgreen);
+    max-width: 1399px;
+    width: 100%;
+}
+
+.logo{
+    padding-top: 43px;
+    padding-left: 5px;
+}
+
+.footer__socials{
+    display: flex;
+    gap:12px;
+    padding-left: 78px;
+}
+
+.phone{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 73px;
+    padding-top: 17px;
+}
+
+.gmail{
+    padding-top: 40px;
+    padding-left: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__list{
+    font-size: 20px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px 35px;
+    padding-top: 43px;
+}
+
+.footer__info{
+    gap: 35px;
+    max-width: max-content;
+}
+
+.ftr{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.footer__info:hover {
+    color: var(--lightgreen);
+    transition: color .4s;
+}
+
+.footer__social {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--write);
+    border-radius: 50%;
+    transition: color .4s, background-color .4s;
+}
+
+.footer__social:hover {
+    background-color: var(--darkgreen1);
+    border-color: transparent;
+    
+}
