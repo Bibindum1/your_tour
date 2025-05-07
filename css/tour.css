@@ -19,3 +19,29 @@
     height: 5px;
     background-color: var(--lightgreen);
 }
+
+.card{
+    background-color: var(--darkgreen);
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.img{
+    max-width: 400px;
+    top: 0px;
+    border-radius: 15px;
+}
+
+.names__tour{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 13px;
+}
+
+.tour__info{
+    max-width: 340px;
+    gap: 10px;
+}
+
