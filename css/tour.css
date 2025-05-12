@@ -20,19 +20,19 @@
     background-color: var(--lightgreen);
 }
 
-.card{
+.card {
     background-color: var(--darkgreen);
     max-width: 400px;
     border-radius: 15px;
 }
 
-.img{
+.img {
     max-width: 400px;
     top: 0px;
     border-radius: 15px;
 }
 
-.names__tour{
+.names__tour {
     color: #fff;
     font-size: 22px;
     margin-top: 20px;
@@ -40,8 +40,53 @@
     margin-bottom: 13px;
 }
 
-.tour__info{
+.tour__info {
     max-width: 340px;
     gap: 10px;
 }
 
+.card__info {
+    color: #fff;
+    padding-left: 42px;
+    font-size: 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DP {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.prise {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-top: 11px;
+}
+
+.days {
+    color: #B2B2B2;
+    font-size: 14px;
+    margin-top: 11px;
+    padding-right: 20px;
+}
+
+.card__btn {
+    background-color: #fff;
+    padding: 7px 22px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    gap: 16px;
+}
+
+.card__btn::br{
+    background-color: var(--lightgreen);
+}
